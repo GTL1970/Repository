@@ -1,0 +1,32 @@
+body{
+ background:#fefbd8;
+  color: red;  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.yellow-background {
+  background-color: rgb(251,211,0);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: x-large;
+  color: black
+  }
+
+  .border {
+    font-size: x-large;
+    border: 4px dotted red;
+  }
+
+  p {
+    font-size:large;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+  }
+
+  .footer-background {
+    background-color: rgb(251,211,0);
+    font-weight: bold;
+    font-size: 15px;
+    }
