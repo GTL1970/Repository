@@ -17,14 +17,15 @@
     <main>
         <hr>
         <form name="contact" method="POST" data-netlify="true">
-            <p> <label>Name</label>
-                <input type="text" />
+            <p>
+                <label>Name
+                    <input type="text" name="name" /></label>
             </p>
             <p>
                 <label>
                     Email
-                </label>
-                <input type="email" />
+
+                    <input type="email" name="email" /></label>
             </p>
             <p>
                 <label>
@@ -32,8 +33,10 @@
                 </label>
             </p>
             <p>
-                <textarea rows="10" cols="0">
+                <label>
+                    <textarea rows="10" cols="0" name="message">
                 </textarea>
+                </label>
             </p>
             <input type="submit" />
         </form>
