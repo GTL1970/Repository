@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GTD Color Toggle Page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+  <nav class="topNav">
+    <button class="ham">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </nav>
+  <div class="overlay"></div>
+
+  <nav class="sideNav">
+    <button class="menuX">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+
+    <ul class="sideNav-content">
+      <li><a class="menuLink" id="lhome" onclick="myFunction()" href="#home">Home</a></li>
+      <li><a class="menuLink" id="lred" onclick="myFunction1()" href="#red">Red</a></li>
+      <li><a class="menuLink" id="lorange" onclick="myFunction2()" href="#orange">Orange</a></li>
+      <li><a class="menuLink" id="lyellow" onclick="myFunction3()" href="#yellow">Yellow</a></li>
+      <li><a class="menuLink" id="lgreen" onclick="myFunction4()" href="#green">Green</a></li>
+      <li><a class="menuLink" id="lblue" onclick="myFunction5()" href="#blue">Blue</a></li>
+      <li><a class="menuLink" id="lpurple" onclick="myFunction6()" href="#purple">Purple</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home">Home</section>
+    <section id="red">Red</section>
+    <section id="orange">Orange</section>
+    <section id="yellow">Yellow</section>
+    <section id="green">Green</section>
+    <section id="blue">Blue</section>
+    <section id="purple">Purple</section>
+  </main>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
